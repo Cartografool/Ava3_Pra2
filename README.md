@@ -1,6 +1,6 @@
-# Ava3_Pra2
+# Ava3_Pra2 / Formulário de Contato
 
-Projeto desenvolvido com Django e React para criação de um formulário web.
+Projeto desenvolvido com Django e React para criação de um formulário de contato web.
 
 ## Tecnologias
 
