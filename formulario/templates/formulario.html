@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Meu Formulário</title>
+  </head>
+  <body>
+    <h1>Cadastro</h1>
+
+    <form method="POST">
+      {% csrf_token %}
+
+      <label>Nome:</label>
+      <input type="text" name="nome" />
+
+      <br /><br />
+
+      <label>Email:</label>
+      <input type="email" name="email" />
+
+      <br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
